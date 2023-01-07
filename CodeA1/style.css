@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Header background Section */
+.header {
+    width: 100%;
+    height: 760px;
+    background-image: url(./images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-header {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+span {
+    color: #1FAA59;
+}
+
+/* Navbar gitub link btn create */
+.github {
+    background-color: #1FAA59;
+    color: white;
+    padding: 12px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul h4 {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Right Side content create */
+.content {
+    position: absolute;
+    width: 100%;
+    /* width: 525px; */
+     /* left: 900px; */
+    height: 228px;
+    right: 200px;
+    top: 216px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: right;
+}
+
+.content h2 {
+    font-size: 40px;
+    color: #1FAA59;
+}
+
+#sub-title {
+    font-size: 20px;
+}
+
+/* Content btn create */
+.btn {
+    background-color: #1FAA59;
+    color: white;
+    padding: 12px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+/* Main Section Start */
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+/* .FailSuccess-content section  start*/
+.FailSuccess-header {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+
+.FailSuccess-header img {
+    height: 600px;
+}
+
+.FailSuccess-content {
+    margin-left: 30px;
+    gap: 10px;
+}
+
+.FailSuccess-content h2 {
+    font-size: 50px;
+    color: #1FAA59;
+    font-weight: 800;
+}
+
+.FailSuccess-content h4 {
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.FailSuccess-content p {
+    font-size: 20px;
+}
+
+.fa-solid {
+    color: #1FAA59;
+    font-weight: 800;
+}
+
+/* .FailSuccess-content section  End*/
+
+/* .MyPlans Section Start */
+.MyPlans {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.MyPlans h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #1FAA59;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .MyPlans Section end */
+/* Positive Banner Satrt */
+.psoitive-banner {
+    background-image: url(./images/gradient2.png), url(./images//watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-top: 20px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 6px;
+    height: 200px;
+}
+
+.positive-text {
+    margin: 20px;
+    gap: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+#btnKeep {
+    margin-top: 20px;
+}
+
+/* Project About Css start */
+.project-title h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1FAA59;
+    margin-top: 80px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects-items img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.projects-items {
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 5px 6px rgba(66, 62, 62, 0.06);
+}
+
+.projects-items h2 {
+    font-size: 27px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.projects-items p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer section :start */
+.footer-container {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    padding: 30px;
+}
+
+.future h1,
+p,
+h4 {
+    margin-bottom: 15px;
+}
+
+.future h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subscribe {
+    line-height: 100px;
+    font-size: 20px;
+}
+
+.subscribe input {
+    height: 80px;
+    width: 200px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: #242B2E;
+    border: 1px solid white;
+    color: white;
+}
+
+.subscribe button {
+    height: 50px;
+    width: 140px;
+    border: none;
+    background-color: #1FAA59;
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #242B2E;
+    color: white;
+}
